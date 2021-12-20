@@ -1,0 +1,22 @@
+EMULADOR
+
+Interfaz grafica en java
+	·Ventana principal //Creada
+		-menu de barra //Creada
+			*Archivos //Creada
+				->abrir archivos(C) // *se como se hace*
+			*controles // Creada
+			 	->interfaz de controles(C) //creada
+					.>menu con los tipos de consolas que puede emular // creada
+					.>modificar el panel para insertar los controles //
+		-pantalla principal // 
+
+Emulador en C
+	-ejecutar la interfaz grafica con el ejecutable en C
+	-Crear funciones para GBA, GBC, GB
+		*Conseguir abrir los ficheros con extension GBA, GBC, GB.
+		*Crear un fichero para la visualizacion de la imagen.
+		*Crear un fichero para determinar los controles que se pueden modificar desde la interfaz grafica.
+		*Crear archivos donde guardar los datos.
+	-crear ficheros con los datos guardados del avance.
+	-crear ficheros para guardar los controles que se van a usar
