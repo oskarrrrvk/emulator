@@ -1,4 +1,3 @@
-package interfaz;
 
 import javax.swing.*;
 public class GraphicInterface extends Exception{

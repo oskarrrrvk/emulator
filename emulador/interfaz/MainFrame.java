@@ -1,4 +1,3 @@
-package interfaz;
 
 import java.awt.BorderLayout;
 
@@ -9,7 +8,7 @@ public class MainFrame{
     
     //Attributes
     private JFrame frame = new JFrame("EMULATOR");
-    private JPanel pantalla = new JPanel();
+    private JPanel panel = new JPanel();
     //Constructors
     public MainFrame(int width, int height){
         this.frame.setSize(width, height);
@@ -25,7 +24,7 @@ public class MainFrame{
     
     //Metodo
     public void insetarPantalla(){
-        this.frame.add(this.pantalla);
-        this.frame.getContentPane().add(BorderLayout.CENTER,this.pantalla);
+        this.frame.add(this.panel);
+        this.frame.getContentPane().add(BorderLayout.CENTER,this.panel);
     }
 }
